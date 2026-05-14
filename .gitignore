@@ -3,7 +3,7 @@ bin/
 *.class
 *.jar
 
-# Dependencias de prueba (no incluir en el repo)
+
 MauMau/lib/
 
 # IDEs
@@ -15,14 +15,4 @@ MauMau/lib/
 .idea/
 *.iml
 .vscode/
-
-# Sistema operativo
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Logs y temporales
-*.log
-*.tmp
-*.bak
 
