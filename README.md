@@ -121,7 +121,6 @@ Clases de utilidad para entrada/salida. `ConsoleInput` es un singleton que valid
 
 ## Diagrama de clases
 
-El fichero `MauMau/diagrama_clases.puml` contiene el diagrama en formato PlantUML.
 
 ![Diagrama UML](UML.png)
 
