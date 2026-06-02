@@ -233,7 +233,7 @@ public abstract class Player {
 }
 ```
 
-[]
+![Diagrama UML](Player.png)
 
 ---
 
