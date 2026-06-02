@@ -54,15 +54,15 @@ Al cierre de cada ronda, cada jugador suma los valores de sus cartas **no combin
 
 ### Capturas de pantalla
 
-![Menu](Menu.png).  
+![Menu](assets/Menu.png).  
 
-![Mano Jugador](ManoHumano.png).  
+![Mano Jugador](assets/ManoHumano.png).  
 
-![Turno Bot](TurnoBot.png).
+![Turno Bot](assets/TurnoBot.png).
 
-![Cierre ronda](FinRondaBot.png).
+![Cierre ronda](assets/FinRondaBot.png).
 
-![Fin Partida](FinPartida.png).
+![Fin Partida](assets/FinPartida.png).
 
 ---
 
@@ -105,7 +105,7 @@ MauMau/                              # Proyecto Eclipse
 
 ## Diagrama de clases UML
 
-![Diagrama UML](UML.png)
+![Diagrama UML](assets/UML.png)
 
 El diagrama de clases se ha modelado con **PlantUML** y refleja la arquitectura completa del proyecto. Muestra:
 
@@ -194,7 +194,7 @@ public static ConsoleInput getInstance() {
 
 **Justificación**: Es la solución estándar para recursos compartidos no reentrantes. Alternativas como pasar un `Scanner` por parámetro a todas las clases aumentarían el acoplamiento sin beneficio real.
 
-![Singleton](ConsoleInputSingleton.png).
+![Singleton](assets/ConsoleInputSingleton.png).
 
 ### Utility Class — `HandAnalyzer` y `ConsoleOutput`
 
@@ -233,7 +233,7 @@ public abstract class Player {
 }
 ```
 
-![Diagrama UML](Player.png)
+![Diagrama UML](assets/Player.png)
 
 ---
 
@@ -279,9 +279,9 @@ Se han diseñado pruebas que verifican el comportamiento esperado sin conocer la
 
 ### Capturas de ejecución de tests
 
-[]
+![Tests1](assets/TestEjecucion.png)
 
-[]
+![Tests1](assets/Test2.png)
 
 ---
 
@@ -301,8 +301,6 @@ Para generar la documentación HTML:
 ```
 javadoc -d docs/ -sourcepath src/ -subpackages app main tools
 ```
-
-[]
 
 ---
 
