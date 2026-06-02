@@ -105,7 +105,7 @@ MauMau/                              # Proyecto Eclipse
 
 ## Diagrama de clases UML
 
-![Diagrama UML](MauMau/UML.png)
+![Diagrama UML](UML.png)
 
 El diagrama de clases se ha modelado con **PlantUML** y refleja la arquitectura completa del proyecto. Muestra:
 
@@ -194,7 +194,7 @@ public static ConsoleInput getInstance() {
 
 **Justificación**: Es la solución estándar para recursos compartidos no reentrantes. Alternativas como pasar un `Scanner` por parámetro a todas las clases aumentarían el acoplamiento sin beneficio real.
 
-![Singleton](MauMau/ConsoleInputSingleton.png).
+![Singleton](ConsoleInputSingleton.png).
 
 ### Utility Class — `HandAnalyzer` y `ConsoleOutput`
 
