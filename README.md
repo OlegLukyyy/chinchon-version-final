@@ -194,7 +194,7 @@ public static ConsoleInput getInstance() {
 
 **Justificación**: Es la solución estándar para recursos compartidos no reentrantes. Alternativas como pasar un `Scanner` por parámetro a todas las clases aumentarían el acoplamiento sin beneficio real.
 
-[]
+![Singleton](MauMau/ConsoleInputSingleton.png).
 
 ### Utility Class — `HandAnalyzer` y `ConsoleOutput`
 
