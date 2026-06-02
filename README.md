@@ -279,9 +279,9 @@ Se han diseñado pruebas que verifican el comportamiento esperado sin conocer la
 
 ### Capturas de ejecución de tests
 
-![Tests1](assets/TestEjecucion.png)
+![Tests1](assets/TestsEjecucion.png)
 
-![Tests1](assets/Test2.png)
+![Tests2](assets/Test2.png)
 
 ---
 
