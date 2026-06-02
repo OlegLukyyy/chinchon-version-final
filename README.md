@@ -54,15 +54,15 @@ Al cierre de cada ronda, cada jugador suma los valores de sus cartas **no combin
 
 ### Capturas de pantalla
 
-[insertar imagen de menú principal del juego]
+![Menu](Menu.png).  
 
-[insertar imagen de turno de jugador humano mostrando la mano y opciones]
+![Mano Jugador](ManoHumano.png).  
 
-[insertar imagen de turno de IA mostrando decisiones automáticas]
+![Turno Bot](TurnoBot.png).
 
-[insertar imagen de cierre de ronda y puntuación]
+![Cierre ronda](FinRondaBot.png).
 
-[insertar imagen de pantalla de fin de partida con ganador]
+![Fin Partida](FinPartida.png).
 
 ---
 
@@ -87,8 +87,8 @@ MauMau/                              # Proyecto Eclipse
 │   └── tools/
 │   │   ├── ConsoleInput.java        # Singleton de entrada
 │   │   └── ConsoleOutput.java       # Utilidad de salida
-│   ├── test/                        # Pruebas unitarias (JUnit 5)
-│   │   └── HandAnalyzerTest.java    # Tests de HandAnalyzer
+├── test/                        # Pruebas unitarias (JUnit 5)
+│   └── HandAnalyzerTest.java    # Tests de HandAnalyzer
 └──UML.png                          # Diagrama UML exportado
 
 ```
